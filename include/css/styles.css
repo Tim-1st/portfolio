@@ -738,6 +738,10 @@ li.visible {
     transform: translateX(0); 
 }
 
+
+
+
+
     
 }
 
@@ -835,4 +839,32 @@ li.visible {
 
 .text-inspiration p {
     margin-bottom: 1.2rem; 
+}
+
+.footer-contact {
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+
+.footer-contact p {
+    color: black;
+    margin-bottom: 1rem;
+    
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #56739a;
+    font-weight: bold;
+}
+
+.footer-contact span {
+    font-weight: bold;
+    color: #56739a;
+}
+
+.footer-text {
+    font-weight: bold;
 }
