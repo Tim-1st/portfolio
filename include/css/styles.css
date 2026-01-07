@@ -768,7 +768,7 @@ li.visible {
         margin-top: 2rem;
     }
         .text-inspiration {
-        font-size: 1.1rem;
+        font-size: 1.1rem !important;
     }
 }
 
