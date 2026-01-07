@@ -767,6 +767,9 @@ li.visible {
     .square {
         margin-top: 2rem;
     }
+        .text-inspiration {
+        font-size: 1.1rem;
+    }
 }
 
 
