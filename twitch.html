@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="include/css/twitch.css">
+</head>
+<body class="horizontal-rectangles">
+    <div class="navbar ancres">
+        <a href="index.html">Timéo</a>
+    </div>
+    <div class="box-title">
+        <p class="title">Twitch</p>
+    </div>
+    <div class="contenair">
+        <div class="box-paragraph">
+            <p class="first-paragraph fade-in">
+            Débutant et passionné par le développement web, j’ai rapidement ressenti le besoin de créer mes 
+            propres projets afin d’en apprendre davantage et de renforcer mes compétences. Cependant, je 
+            me suis vite retrouvé limité, enchaînant la reproduction de sites simples, sans réelle finalité.
+            </p>
+        </div>
+    </div>
+    <div class="contenair">
+        <div class="box-paragraph">
+            <p class="second-paragraph fade-in">
+            Un jour, j’ai découvert, via une plateforme que j’utilise régulièrement (Twitch), qu’il était 
+            possible de créer des overlays pour des streamers à l’aide des langages de programmation que je 
+            maîtrisais déjà. Curieux, j’ai décidé d’approfondir le sujet. 
+            </p>
+        </div>
+    </div>
+    <div class="contenair-overlay">
+         <img class="fade-in" src="include/medias/Screenshot 2025-09-24 at 21.20.03.png" alt=""> 
+    </div>
+     <footer>
+        <div class="footer-box">
+            <p class="footer-text">© 2024 Timéo. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.fade-in').forEach(function(el) {
+    el.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
