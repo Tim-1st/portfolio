@@ -47,15 +47,8 @@ h1::after {
 }
 
 
-.text {
-    margin-top: 5rem;
-    width: 45rem;
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
+
+
 
 .contenair {
     display: flex;
@@ -801,3 +794,45 @@ li.visible {
     transform: translateX(-50%);
 }
 
+.button-galerie {
+    text-decoration: none;
+    color: white;
+    background-color: #22427c;
+    padding: 0.6rem 1.2rem;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    border-radius: 9px;
+    transition: 
+        background 0.3s cubic-bezier(.4,0,.2,1),
+        transform 0.2s cubic-bezier(.4,0,.2,1),
+        box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(34,66,124,0.08);
+    margin-bottom: 5rem;
+    display: inline-block;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;  
+    margin-top: 2rem;
+}
+
+
+.button-galerie:hover {
+    background-color: rgba(34, 66, 124, 0.5); 
+    color: white;
+    box-shadow: 0 2px 8px rgba(34,66,124,0.18); 
+}
+
+.text-inspiration {
+    margin-top: 5rem;
+    width: 45rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.text-inspiration p {
+    margin-bottom: 1.2rem; 
+}
