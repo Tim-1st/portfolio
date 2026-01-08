@@ -396,7 +396,7 @@ font-size: 0.9rem;
 
     .title {
         position: static;
-        width: 100%;
+        width: fit-content;
         align-items: center;
         margin-bottom: 1rem;
     }
