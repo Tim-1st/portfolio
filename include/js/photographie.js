@@ -33,3 +33,23 @@ const scrollBtn = document.getElementById('scrollTopBtn');
 scrollBtn.addEventListener('click', function() {
 window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    let options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.2,
+    };
+
+    let observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+            }
+        });
+    }, options);
+
+    document.querySelectorAll(".fade-in").forEach(element => {
+        observer.observe(element);
+    });
+});
