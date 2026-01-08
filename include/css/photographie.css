@@ -255,6 +255,43 @@ a {
     }
 }
 
+.footer-contact {
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+
+.footer-contact p {
+    color: black;
+    margin-bottom: 1rem;
+    
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #FF6347;
+    font-weight: bold;
+}
+
+.footer-contact span {
+    font-weight: bold;
+    color: #FF6347;
+}
+
+.footer-text {
+    font-weight: bold;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 1024px) {
     .content {
         gap: 60px;
