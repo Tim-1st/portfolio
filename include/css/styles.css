@@ -77,8 +77,11 @@ h1::after {
     margin-left: 1rem;
 }
 .navbar {
+    top: env(safe-area-inset-top);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0;
     position: fixed;
-    top: 0;
     left: 50%;
     transform: translateX(-50%);
     width: clamp(0.1rem, 90vw, 70rem);
@@ -99,7 +102,6 @@ h1::after {
 }
 .navbar.hide-navbar {
     transform: translate(-50%, -120%);
-    opacity: 0;
 }
 .text-fixed {
     margin-left: 1rem;
